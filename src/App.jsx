@@ -4,47 +4,47 @@ import Question from './Question';
 
 const questionsAndAnswers = [
   { question: '.... – korxonalarning real moliyaviy resurslari hisoblanadi', answer: 'Amortizatsiya ajartmalari' },
-  { question: 'Byudjet profitsiti-  ', answer: 'Muayyan davrda byudjet daromadlarining byudjet xarajatlaridan ortiq bo’lgan summasi  ' },
-  { question: 'Bank birinchi bo`lib qaysi davlatda paydo bo`lgan?  ', answer: 'Italiya' },
-  { question: 'Ixtisoslashgan moliyaviy vositachilarga xos bo‘lgan deyarli barcha moliyaviy funksiyalarni bajaruvchi tashkilotlar ………… deb taladi.  ', answer: 'Universal banklar' },
-  { question: 'Uy xo‘jaliklari va firmalarga alohida turdagi shartnomani sotib olish orqali risk darajasini kamaytirish imkoniyatini taqdim etuvchi moliyaviy vositachi tashkilot to’g’ri ko’rsatilgan javobni aniqlang.  ', answer: 'Sug’urta kompaniyalari' },
-  { question: 'Bir guruh investorlar tomonidan sotib olinadigan va professional investitsiya kompaniyasi yoki boshqa biror moliya muassasasi tomonidan boshqariladigan aksiyalar, obligatsiyalar va boshqa aktivlarning tashkiliy shakllantirilgan to‘plami …………… deb ataladi.  ', answer: 'o`zaro fondlar' },
-  { question: 'Bir aksiya hisobidan sof aktivlar bahosi ko’rsatkichi (NAV) qanday aniqlanadi?  ', answer: 'fond portfelidagi barcha qimmatli qog‘ozlarning bozor qiymati ular muomalaga chiqargan barcha aksiyalar soniga bo‘linadi  ' },
-  { question: 'Sug‘urta sohasidagi kredit reytingini aniqlashga ixtisoslashgan axborot xizmatlarini ko‘rsatuvchi firma berilgan javobni aniqlang', answer: 'Best,s' },
-  { question: 'Venchur kompaniyalari va investitsio   n banklarning bir-biridan farqlanuvchi  eng asosiy jihati to`gri berilgan javobni aniqlang', answer: 'investitsiya banklarning mijozlari yirik banklar hisoblansa, venchur kompaniyalarning mijozlari faoliyatini endi boshlagan firmalar hisoblandi' },
-  { question: 'Xususiy kompaniyalar, hukumat va boshqa tashkilotlarga o‘z faoliyatini moliyalashtirish uchun zarur mablag‘larni jalb qilishda yordam beruvchi moliyaviy vositachilar tog`ri ko`rsatilgan javobni belgilang.  ', answer: 'investitsion banklar  ' },
-  { question: 'Olinayotgan mablag‘lar bo‘yicha va’da qilinayotgan daromadlik stavkasiga…………………. deb ataladi.  ', answer: 'foiz stavkasi  ' },
-  { question: 'Kreditning har qanday turi yoki qayd qilingan daromadga ega vosita bo‘yicha foiz stavkasi miqdori qanday omillarga bo`g’liq?', answer: 'hisob-kitob pul birligi, to‘lov muddati va kredit kelishuvi shartlarining qarz oluvchi tomonidan bajarilmaslik riski  ' },
-  { question: 'Tijorat banklari faoliyati ustidan nazorat olib boruvchi organni ko‘rsatinig?  ', answer: 'Markaziy Bank' },
-  { question: 'Markaziy bank o‘z hisobotlarini kimga taqdim etadi?  ', answer: 'Oliy Majlisga ' },
-  { question: ' Nikkei, Topix kabi indekslar qaysi davlat fond bozorlarida qo`llaniladi.', answer: 'Yaponiya  ' },
-  { question: 'Investitsiya qilingan kapital daromadlilik dinamikasini ma’lum bir birja indeksiga bog‘lash maqsadiga asoslangan investitsiya strategiyasiga …………………..deyiladi.  ', answer: 'Indeksatsiyalash  ' },
-  { question: '“CAC 40” indeksi qaysi mamlakat fond bozorlarida foydalniladi.  ', answer: 'Fransiya  ' },
-  { question: 'bu pul massasining tovar aylanmasi ehtiyojlariga nisbatan ortib ketishi natijasida pul birligining qadrsizlanishi va shunga mos ravishda tovar narxlarining o`sishidir.  ', answer: 'Inflatsiya  ' },
-  { question: 'Moliyaviy siyosat-  ', answer: 'moliyadan foydalanishning metodlari, uni tashkil qilishning amaliy shakllari va metodologik printsiplarining majmui  ' },
-  { question: 'Inflyatsiyadan himoyalangan yangi turdagi qo‘shimcha jamg‘arma obligatsiyalari qanday nomlanadi?  ', answer: 'I Bond' },
-  { question: 'Sug`urta kompaniyasi tomonidan xizmat ko‘rsatilgani uchun sug’urtalanuvchi tomonidan to‘lanadigan pullar ………………….  deyiladi.  ', answer: 'Sug`urta mukofoti' },
-  { question: 'Bir valyutaga nisbatan boshqa bir valyutaning bahosini o`zgarishi………………. deb ataladi.  ', answer: 'Valyuta kursi  ' },
-  { question: 'Daromadi va’da qilingan daromad stavkasida beriladigan moliyaviy instrument  ko’rsatilgan javobni aniqlang.  ', answer: 'Obligatsiya (qarz munosabatlarini ifodalaydigan qimmatli qog‘oz)  ' },
-  { question: '“FT-30”, “FT-100” fond bozori indekslari qaysi mamlakat fond bozorlarida ishlatiladi?  ', answer: 'Buyuk Britaniya  ' },
-  { question: 'Moliyaviy oqimlarning hajmi nimalarga bog‘liq bo‘ldai?  ', answer: 'Mamlakat moliyaviy qudratiga' },
-  { question: 'Asosiy fondlar inventarizatsiyasi qanday muddatda o‘tkazildi  ', answer: '1 yilda 1 marta' },
-  { question: 'Oraliq ma’lumotnoma qachon tuziladi?', answer: 'Nazoratning har bir bosqichi yakunida ' },
-  { question: 'Tuzilgan dalolatnoma kimga yuboriladi?  ', answer: 'Davlat moliyaviy nazorati department boshlig’iga   ' },
-  { question: 'Ichki nazoratda asosiy bo‘g‘in bu?', answer: 'Bosh buxgalter   ' },
-  { question: 'Ichki moliyaviy nazorat samarasi bu?  ', answer: 'Tashqi tekshirishlarni kamayishi ' },
-  { question: 'Ichki nazorat qanday tartibda moliyalashtiriladi?  ', answer: 'Tekinga  ' },
-  { question: 'Keltirilgan qiymatni aniqlash …………… deb ataladi.  ', answer: 'Diskontlash  ' },
-  { question: 'Quyidagilardan qaysi biri moliyaviy siyosatning tarkibiy qismiga kirmaydi?  ', answer: 'Inflyatsiyani oldini olish siyosati' },
-  { question: 'Moliya tizimi bu   ', answer: 'Davlat va korxonalarning pul fondlarini shakllantirish, taqsimlash va foydalanish borasidagi shakl va metodlar to‘plami  ' },
-  { question: 'Davlat byudjeti moliyaviy rejaning qanday turiga kiradi?  ', answer: 'Asosiy moliyaviy reja  ' },
-  { question: 'Amalga oshirsa bo’ladigan rejalardan eng yaxshisini tanlashga yordam beradigan miqdoriy model....... deb ataladi.  ', answer: 'optimallashtirish modeli  ' },
-  { question: 'Odam bo’lajak davrda bajaradigan ishi uchun oladigan daromadning keltirilgan qiymati - …………….deb ataladi.  ', answer: 'Inson kapitali' },
-  { question: 'Keltirilgan qiymati inson kapitaliga teng bo’lgan iste’molga sarflanadigan xarajatning doimiy darajasi – ……………………. deb ataladi.  ', answer: 'Doimiy daromad  ' },
-  { question: 'Moliyaviy bitimlar tuzish, aktivlar va riskni almashishda foydalaniladigan bozorlar va boshqa institutlar majmuiga nima deyiladi?  ', answer: 'Moliyaviy tizim ' },
-  { question: 'Quyidagilardan qaysilari moliya tizimini harakatlantiruvchi elementlar hisoblanadi?  ', answer: 'Oldi-sotdi savdolari, debitor va kreditorlik qarzlari, kreditlar ' },
-  { question: 'Biznesni olib borishning asosiy tashkiliy shakllari nechta?  ', answer: '3' },
-  { question:'Moliya tizimini ularsiz tasavvur qilib bolmaydi va u siz moliya harakatdan toxtaydi.Bu qanday jarayon?', answer: 'Moliyaviy oqimlar   ' },
+{ question: 'Byudjet profitsiti-  ', answer: 'Muayyan davrda byudjet daromadlarining byudjet xarajatlaridan ortiq bo’lgan summasi  ' },
+{ question: 'Bank birinchi bo`lib qaysi davlatda paydo bo`lgan?  ', answer: 'Italiya' },
+{ question: 'Ixtisoslashgan moliyaviy vositachilarga xos bo‘lgan deyarli barcha moliyaviy funksiyalarni bajaruvchi tashkilotlar ………… deb taladi.  ', answer: 'Universal banklar' },
+{ question: 'Uy xo‘jaliklari va firmalarga alohida turdagi shartnomani sotib olish orqali risk darajasini kamaytirish imkoniyatini taqdim etuvchi moliyaviy vositachi tashkilot to’g’ri ko’rsatilgan javobni aniqlang.  ', answer: 'Sug’urta kompaniyalari' },
+{ question: 'Bir guruh investorlar tomonidan sotib olinadigan va professional investitsiya kompaniyasi yoki boshqa biror moliya muassasasi tomonidan boshqariladigan aksiyalar, obligatsiyalar va boshqa aktivlarning tashkiliy shakllantirilgan to‘plami …………… deb ataladi.  ', answer: 'o`zaro fondlar' },
+{ question: 'Bir aksiya hisobidan sof aktivlar bahosi ko’rsatkichi (NAV) qanday aniqlanadi?  ', answer: 'fond portfelidagi barcha qimmatli qog‘ozlarning bozor qiymati ular muomalaga chiqargan barcha aksiyalar soniga bo‘linadi  ' },
+{ question: 'Sug‘urta sohasidagi kredit reytingini aniqlashga ixtisoslashgan axborot xizmatlarini ko‘rsatuvchi firma berilgan javobni aniqlang', answer: 'Best,s' },
+{ question: 'Venchur kompaniyalari va investitsio   n banklarning bir-biridan farqlanuvchi  eng asosiy jihati to`gri berilgan javobni aniqlang', answer: 'investitsiya banklarning mijozlari yirik banklar hisoblansa, venchur kompaniyalarning mijozlari faoliyatini endi boshlagan firmalar hisoblandi' },
+{ question: 'Xususiy kompaniyalar, hukumat va boshqa tashkilotlarga o‘z faoliyatini moliyalashtirish uchun zarur mablag‘larni jalb qilishda yordam beruvchi moliyaviy vositachilar tog`ri ko`rsatilgan javobni belgilang.  ', answer: 'investitsion banklar  ' },
+{ question: 'Olinayotgan mablag‘lar bo‘yicha va’da qilinayotgan daromadlik stavkasiga…………………. deb ataladi.  ', answer: 'foiz stavkasi  ' },
+{ question: 'Kreditning har qanday turi yoki qayd qilingan daromadga ega vosita bo‘yicha foiz stavkasi miqdori qanday omillarga bo`g’liq?', answer: 'hisob-kitob pul birligi, to‘lov muddati va kredit kelishuvi shartlarining qarz oluvchi tomonidan bajarilmaslik riski  ' },
+{ question: 'Tijorat banklari faoliyati ustidan nazorat olib boruvchi organni ko‘rsatinig?  ', answer: 'Markaziy Bank' },
+{ question: 'Markaziy bank o‘z hisobotlarini kimga taqdim etadi?  ', answer: 'Oliy Majlisga ' },
+{ question: ' Nikkei, Topix kabi indekslar qaysi davlat fond bozorlarida qo`llaniladi.', answer: 'Yaponiya  ' },
+{ question: 'Investitsiya qilingan kapital daromadlilik dinamikasini ma’lum bir birja indeksiga bog‘lash maqsadiga asoslangan investitsiya strategiyasiga …………………..deyiladi.  ', answer: 'Indeksatsiyalash  ' },
+{ question: '“CAC 40” indeksi qaysi mamlakat fond bozorlarida foydalniladi.  ', answer: 'Fransiya  ' },
+{ question: 'bu pul massasining tovar aylanmasi ehtiyojlariga nisbatan ortib ketishi natijasida pul birligining qadrsizlanishi va shunga mos ravishda tovar narxlarining o`sishidir.  ', answer: 'Inflatsiya  ' },
+{ question: 'Moliyaviy siyosat-  ', answer: 'moliyadan foydalanishning metodlari, uni tashkil qilishning amaliy shakllari va metodologik printsiplarining majmui  ' },
+{ question: 'Inflyatsiyadan himoyalangan yangi turdagi qo‘shimcha jamg‘arma obligatsiyalari qanday nomlanadi?  ', answer: 'I Bond' },
+{ question: 'Sug`urta kompaniyasi tomonidan xizmat ko‘rsatilgani uchun sug’urtalanuvchi tomonidan to‘lanadigan pullar ………………….  deyiladi.  ', answer: 'Sug`urta mukofoti' },
+{ question: 'Bir valyutaga nisbatan boshqa bir valyutaning bahosini o`zgarishi………………. deb ataladi.  ', answer: 'Valyuta kursi  ' },
+{ question: 'Daromadi va’da qilingan daromad stavkasida beriladigan moliyaviy instrument  ko’rsatilgan javobni aniqlang.  ', answer: 'Obligatsiya (qarz munosabatlarini ifodalaydigan qimmatli qog‘oz)  ' },
+{ question: '“FT-30”, “FT-100” fond bozori indekslari qaysi mamlakat fond bozorlarida ishlatiladi?  ', answer: 'Buyuk Britaniya  ' },
+{ question: 'Moliyaviy oqimlarning hajmi nimalarga bog‘liq bo‘ldai?  ', answer: 'Mamlakat moliyaviy qudratiga' },
+{ question: 'Asosiy fondlar inventarizatsiyasi qanday muddatda o‘tkazildi  ', answer: '1 yilda 1 marta' },
+{ question: 'Oraliq ma’lumotnoma qachon tuziladi?', answer: 'Nazoratning har bir bosqichi yakunida ' },
+{ question: 'Tuzilgan dalolatnoma kimga yuboriladi?  ', answer: 'Davlat moliyaviy nazorati department boshlig’iga   ' },
+{ question: 'Ichki nazoratda asosiy bo‘g‘in bu?', answer: 'Bosh buxgalter   ' },
+{ question: 'Ichki moliyaviy nazorat samarasi bu?  ', answer: 'Tashqi tekshirishlarni kamayishi ' },
+{ question: 'Ichki nazorat qanday tartibda moliyalashtiriladi?  ', answer: 'Tekinga  ' },
+{ question: 'Keltirilgan qiymatni aniqlash …………… deb ataladi.  ', answer: 'Diskontlash  ' },
+{ question: 'Quyidagilardan qaysi biri moliyaviy siyosatning tarkibiy qismiga kirmaydi?  ', answer: 'Inflyatsiyani oldini olish siyosati' },
+{ question: 'Moliya tizimi bu   ', answer: 'Davlat va korxonalarning pul fondlarini shakllantirish, taqsimlash va foydalanish borasidagi shakl va metodlar to‘plami  ' },
+{ question: 'Davlat byudjeti moliyaviy rejaning qanday turiga kiradi?  ', answer: 'Asosiy moliyaviy reja  ' },
+{ question: 'Amalga oshirsa bo’ladigan rejalardan eng yaxshisini tanlashga yordam beradigan miqdoriy model....... deb ataladi.  ', answer: 'optimallashtirish modeli  ' },
+{ question: 'Odam bo’lajak davrda bajaradigan ishi uchun oladigan daromadning keltirilgan qiymati - …………….deb ataladi.  ', answer: 'Inson kapitali' },
+{ question: 'Keltirilgan qiymati inson kapitaliga teng bo’lgan iste’molga sarflanadigan xarajatning doimiy darajasi – ……………………. deb ataladi.  ', answer: 'Doimiy daromad  ' },
+{ question: 'Moliyaviy bitimlar tuzish, aktivlar va riskni almashishda foydalaniladigan bozorlar va boshqa institutlar majmuiga nima deyiladi?  ', answer: 'Moliyaviy tizim ' },
+{ question: 'Quyidagilardan qaysilari moliya tizimini harakatlantiruvchi elementlar hisoblanadi?  ', answer: 'Oldi-sotdi savdolari, debitor va kreditorlik qarzlari, kreditlar ' },
+{ question: 'Biznesni olib borishning asosiy tashkiliy shakllari nechta?  ', answer: '3' },
+{ question:'Moliya tizimini ularsiz tasavvur qilib bolmaydi va u siz moliya harakatdan toxtaydi.Bu qanday jarayon?', answer: 'Moliyaviy oqimlar   ' },
 
 { question: 'Moliyaviy kapital deb nimaga aytiladi?', answer: 'Bino, inshoot, mashina uskunalari va ishlab chiqarish jarayonida ishlatiladigan boshqa zarur resurslarga' },
 { question: 'Investitsion loyihalarda yoki kreditni qaytarish sxemasida bo’lajak pul tushumlari yoki to’lovlari yildan yilga o’zgarmay qolishi …………….. debataladi.  ', answer: 'Annuitet' },
@@ -218,8 +218,8 @@ const App = () => {
     setInputValue(e.target.value);
   };
 
-  const filteredQuestions = questionsAndAnswers.filter(
-    (qa) => qa.question.toLowerCase().includes(inputValue.toLowerCase())
+  const matchedAnswer = questionsAndAnswers.find(
+    (qa) => qa.question.toLowerCase().startsWith(inputValue.toLowerCase())
   );
 
   return (
@@ -231,11 +231,9 @@ const App = () => {
         value={inputValue}
         onChange={handleInputChange}
       />
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {filteredQuestions.map((qa, index) => (
-          <Question key={index} question={qa.question} answer={qa.answer} />
-        ))}
-      </div>
+      {matchedAnswer && (
+        <Question question={matchedAnswer.question} answer={matchedAnswer.answer} />
+      )}
     </div>
   );
 };
